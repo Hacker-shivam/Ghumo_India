@@ -83,7 +83,7 @@ const Home = () => {
         <div className="backaground_image w-full"></div>
         <div className="top-part w-full gap-2 flex flex-col">
           <h1 className="text-white text-4xl text-center font-bold underline mb-2">
-            The Travel Index[0]
+            The Travel 
           </h1>
           <h1 className="text-white text-sm text-center xsm:text-lg font-semibold">
             Make Your Travel Dream Come True With Our Amazing Packages
@@ -162,6 +162,7 @@ const Home = () => {
               <h1 className="text-2xl font-semibold">Top Packages</h1>
               <div className="grid 2xl:grid-cols-5 xlplus:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-2 my-3">
                 {topPackages.map((packageData, i) => {
+                   console.log("images",i);
                   return <PackageCard key={i} packageData={packageData} />;
                 })}
               </div>
@@ -174,6 +175,7 @@ const Home = () => {
               <h1 className="text-2xl font-semibold">Latest Packages</h1>
               <div className="grid 2xl:grid-cols-5 xlplus:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-2 my-3">
                 {latestPackages.map((packageData, i) => {
+                 
                   return <PackageCard key={i} packageData={packageData} />;
                 })}
               </div>
