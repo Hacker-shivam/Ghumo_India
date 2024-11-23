@@ -83,7 +83,7 @@ const Home = () => {
         <div className="backaground_image w-full"></div>
         <div className="top-part w-full gap-2 flex flex-col">
           <h1 className="text-white text-4xl text-center font-bold underline mb-2">
-            The Travel 
+            Ghumo India
           </h1>
           <h1 className="text-white text-sm text-center xsm:text-lg font-semibold">
             Make Your Travel Dream Come True With Our Amazing Packages
